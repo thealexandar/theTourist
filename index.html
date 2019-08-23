@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <!-- <div class="loader" id="loader">
+        <span class="counter animated" data-count="100">0</span>
+    </div> -->
+    <header id="body" >
         <div class="background"></div>
         <nav class="navbar fixed-top">
             <a class="navbar-brand animated fadeInLeft delay-1 faster" href="#">
@@ -18,16 +21,16 @@
             </a>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link animated fadeInLeft delay-2 faster" href="#">Active</a>
+                    <a class="nav-link animated fadeInLeft delay-2 faster" href="#">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link animated fadeInLeft delay-3 faster" href="#">Link</a>
+                    <a class="nav-link animated fadeInLeft delay-3 faster" href="#">Destinations</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link animated fadeInLeft delay-4 faster" href="#">Link</a>
+                    <a class="nav-link animated fadeInLeft delay-4 faster" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link animated fadeInLeft delay-5 faster" href="#">Disabled</a>
+                    <a class="nav-link animated fadeInLeft delay-5 faster" href="#">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -43,12 +46,95 @@
             <div class="col-md-6"></div>
         </div>
     </header>
-    <main>
-        <!-- <div class="info animated slideInLeft">
+    <main id="main">
+        <div class="row">
+            <div class="col-xl-9 content">
+                <div class="img-overlay">
+                    <img src="img/birds-eye-view-2133661_1920.jpg" alt="" class="">
+                </div>
+                <div class="info">
+                    <div class="overlay slideOutFromRight"></div>
+                    <h1>Explore</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, possimus?</p>
+                    <div class="text-center"><a href="#" class="">find out more</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row discover">
+            <div class="col-xl-9 offset-xl-3 content">
+                <div class="img-overlay">
+                    <img src="img/adventure-camp-camper-2398220.jpg" alt="" class="">
+                </div>
+                <div class="info-1">
+                    <div class="overlay slideOutFromRight"></div>
+                    <h1>Discover</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, possimus?</p>
+                    <div class="text-center"><a href="#" class="">find out more</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row contact">
+            <!-- <div class="hline"></div> -->
+            <div class="col-xl-10 offset-xl-1 form">
+                <div class="wrap">
+                    <h1 class="text-center mb-3">Tell us where you want to go</h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Ask us a question" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Send</button>
+                        </div>
+                    </div>
+                </div>
 
-        </div> -->
+            </div>
+        </div>
     </main>
-
+    <footer>
+        <div class="row">
+            <div class="col-xl-3 offset-xl-1">
+                <h1 class="animated fadeInUp faster">theTourist</h1>
+                <p class="animated fadeInUp faster">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quod.</p>
+            </div>
+            <div class="col-xl-2">
+                <h6 class="animated fadeInUp delay-1 faster">Visit</h6>
+                <p class="animated fadeInUp delay-2 faster">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, soluta.</p>
+                <h6 class="animated fadeInUp delay-3 faster">Business</h6>
+                <p class="animated fadeInUp delay-4 faster">office@mail.com</p>
+                <p class="animated fadeInUp delay-5 faster">+231 123 3213</p>
+            </div>
+            <div class="col-xl-2">
+                <h6 class="animated fadeInUp delay-1 faster">Follow</h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item animated fadeInUp delay-3 faster">
+                        <a class="nav-link pl-0" href="#">Active</a>
+                    </li>
+                    <li class="nav-item animated fadeInUp delay-4 faster">
+                        <a class="nav-link pl-0" href="#">Link</a>
+                    </li>
+                    <li class="nav-item animated fadeInUp delay-5 faster">
+                        <a class="nav-link pl-0" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-3">
+                <h6 class="animated fadeInUp delay-2 faster">Legal</h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item animated fadeInUp delay-5 faster">
+                        <a class="nav-link pl-0" href="#">Active</a>
+                    </li>
+                    <li class="nav-item animated fadeInUp delay-6 faster">
+                        <a class="nav-link pl-0" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-12 text-center">
+                <p class="fadeInBottomSmall m-0">&copy 2019 - theTourist</p>
+            </div>
+        </div>
+    </footer>
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
