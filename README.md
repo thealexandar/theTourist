@@ -1,3 +1,7 @@
 theTourist
 
-Travel Agency website, currently in development
+Travel Agency website
+
+Live Demo: https://thealexandar.github.io/theTourist/
+
+
